@@ -1,0 +1,131 @@
+.admin_logo{
+    background-image: url('../../image/test.png') ;
+    background-size: 40px;
+    height: 40px;
+    margin-left:5px;
+}
+.admin_logo:before{
+    content: "替";
+    font-size: 40px;
+    visibility: hidden;
+    height: 40px;
+    box-sizing:border-box
+}
+.admin_item_logo{
+    background-image: url('../../image/主页.png') ;
+    background-size: 30px;
+    height: 30px;
+    margin-left:5px;
+    margin-top: -3px;
+}
+.admin_item_logo:before{
+    content: "替";
+    font-size: 30px;
+    visibility: hidden;
+    height: 30px;
+    box-sizing:border-box
+}
+.admin_item_content_logo{
+    background-image: url('../../image/收藏.png') ;
+    background-size: 30px;
+    height: 30px;
+    margin-left:5px;
+    margin-top: -3px;
+}
+.admin_item_content_logo:before{
+    content: "替";
+    font-size: 30px;
+    visibility: hidden;
+    height: 30px;
+    box-sizing:border-box
+}
+.admin_item_content_logo_choose{
+    background-image: url('../../image/收藏_选中.png') ;
+    background-size: 30px;
+    height: 30px;
+    margin-left:5px;
+    margin-top: -3px;
+}
+.admin_item_content_logo_choose:before{
+    content: "替";
+    font-size: 30px;
+    visibility: hidden;
+    height: 30px;
+    box-sizing:border-box
+}
+.admin_item_left{
+    background-image: url('../../image/left.png') ;
+    background-size: 20px;
+    height: 20px;
+    margin-left:5px;
+    margin-top: 3px;
+    transition: 0.4s;
+    transform-origin: center;
+    transform: rotateZ(0deg);
+
+}
+.admin_item_left_black{
+    background-image: url('../../image/left_black.png') ;
+    background-size: 20px;
+    height: 20px;
+    margin-left:5px;
+    margin-top: 3px;
+    transition: 0.4s;
+    transform-origin: center;
+    transform: rotateZ(0deg);
+
+}
+.admin_item_left_black:before{
+    content: "替";
+    font-size: 20px;
+    visibility: hidden;
+    height: 20px;
+    box-sizing:border-box
+}
+.admin_item_left:before{
+    content: "替";
+    font-size: 20px;
+    visibility: hidden;
+    height: 20px;
+    box-sizing:border-box
+}
+.admin_item_down{
+    background-image: url('../../image/left.png') ;
+
+    background-size: 20px;
+    height: 20px;
+    margin-left:5px;
+    margin-top: 3px;
+    transition: 0.4s;
+    transform-origin: center;
+    transform: rotateZ(-90deg);
+
+
+}
+.admin_item_down_black{
+    background-image: url('../../image/left_black.png') ;
+
+    background-size: 20px;
+    height: 20px;
+    margin-left:5px;
+    margin-top: 3px;
+    transition: 0.4s;
+    transform-origin: center;
+    transform: rotateZ(-90deg);
+
+
+}
+.admin_item_down_black:before{
+    content: "替";
+    font-size: 20px;
+    visibility: hidden;
+    height: 20px;
+    box-sizing:border-box
+}
+.admin_item_down:before{
+    content: "替";
+    font-size: 20px;
+    visibility: hidden;
+    height: 20px;
+    box-sizing:border-box
+}

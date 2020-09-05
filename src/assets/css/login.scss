@@ -1,0 +1,148 @@
+
+@media screen and (min-width: 900px) {
+    .wrapper{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: #c16;   
+        background-image: -webkit-gradient(linear, 0 0, 100% 100%,   
+                                color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),   
+                                color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),   
+                                color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),   
+                                to(transparent));   
+        background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,   
+                            transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,   
+                            transparent 75%, transparent);   
+        background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,   
+                            transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,   
+                            transparent 75%, transparent);   
+        background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,   
+                            transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,   
+                            transparent 75%, transparent); 
+        .login_box{
+            position: absolute;
+            
+            top: 20%;
+            left: 0;
+            bottom: 20%;
+            right: 0;
+            
+            background-color: #c16;   
+        background-image: -webkit-gradient(linear, 0 0, 100% 100%,   
+                                color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),   
+                                color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),   
+                                color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),   
+                                to(transparent));   
+        background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,   
+                            transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,   
+                            transparent 75%, transparent);   
+        background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,   
+                            transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,   
+                            transparent 75%, transparent);   
+        background-image: linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,   
+                            transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,   
+                            transparent 75%, transparent); 
+                            text-align: center;
+                            margin: auto auto;
+                            .login-box-bg{
+                                background: #fff;
+                                width: 500px;
+                                margin: auto auto;
+                                border-radius: 15px;
+                                margin-top: 55px;
+                                .login-box-bg-top{
+                                    margin-top: 20px;
+                                    padding: 20px 0;
+                                    font-weight: 600;
+                                    font-size: 26px;
+                                }
+                                .login-box-bg-body{
+                                    .input-login{
+                                        display: flex;
+                                        padding: 10px 0;
+                                        height: 35px;
+                                        line-height: 35px;
+                                        .input-login-left{
+                                            flex: 2;
+                                            font-weight: bold;
+                                            line-height: 40px;
+                                        }
+                                        .input-login-right{
+                                            flex: 8;
+                                            .input{
+                                                width: 85%;
+                                                height: 80%;
+                                                background-color: rgba(0, 0, 0, 0);
+                                                outline: none;
+                                                border: 0;
+                                                border-bottom: 1px solid #000;
+                                            }
+                                            .input[type=text]::placeholder{
+                                                opacity: .5;
+                                            }
+                                            .input[type=password]::placeholder{
+                                                opacity: .5;
+                                            }
+                                            .user{
+                                                width: 85%;
+                                                height: 80%;
+                                                background-color: rgba(0, 0, 0, 0);
+                                                outline: none;
+                                                border: 0;
+                                                border-bottom: 1px solid #c16;
+                                            }
+                                        }
+                                    }
+                                }
+                                .login-box-bg-down{
+                                    display: flex;
+                                    padding: 10px 0;
+                                    width: 80%;
+                                    margin: auto auto;
+                                    .input-code{
+                                        flex: 3;
+                                        margin: auto auto;
+                                        .code-number{
+                                            width: 100%;
+                                            height: 30px;
+                                            outline: none;
+                                            border-top: 0;
+                                            border-left: 0;
+                                            border-right: 0;
+                                            border-bottom: 1px solid #000;
+                                        }
+                                        .code-number[type=number]::placeholder{
+                                            opacity: .5;
+                                        }
+                                    }
+                                    .code{
+                                        flex: 7;
+                                        margin: 0 15px;
+                                        text-align: right;
+                                        .code-img{
+                                            width: 100%;
+                                            height: 40px;
+                                            // background: #000;
+                                        border-radius: 10px;
+
+                                        }
+                                    }
+                                }
+                                .get-in{
+                                    margin: 30px 0;
+                                    padding-bottom: 30px;
+                                    .get-in-btn{
+                                        background: rgb(84, 100, 189);
+                                        color: #fff;
+                                        padding: 12px 150px ;
+                                        border-radius: 5px;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+        }
+        
+    }
+}
